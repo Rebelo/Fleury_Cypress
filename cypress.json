@@ -1,0 +1,13 @@
+{
+  "chromeWebSecurity": false,
+  "viewportWidth": 1200,
+  "viewportHeight": 1080,
+  "reporter": "mochawesome",
+
+  "testFiles": "**/*.feature",
+
+  "retries": {
+    "runMode": 1
+  }
+
+}

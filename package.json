@@ -1,0 +1,31 @@
+{
+  "name": "cypress_tests",
+  "version": "1.0.0",
+  "description": "learning cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "node_modules\\.bin\\cypress open",
+    "cy:chrome:headless": "node_modules\\.bin\\cypress run --browser chrome --headless",
+    "cy:chrome:head": "node_modules\\.bin\\cypress run --browser chrome"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rebelo/Cypress_tests.git"
+  },
+  "author": "Rebelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rebelo/Cypress_tests/issues"
+  },
+  "homepage": "https://github.com/Rebelo/Cypress_tests#readme",
+  "devDependencies": {
+    "cypress": "^7.3.0",
+    "cypress-cucumber-preprocessor": "^4.1.0"
+  },
+  "dependencies": {
+    "mochawesome": "^6.2.2"
+  }
+}
