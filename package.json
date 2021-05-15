@@ -1,7 +1,7 @@
 {
-  "name": "cypress_tests",
+  "name": "fleury_cypress",
   "version": "1.0.0",
-  "description": "learning cypress",
+  "description": "developing a test scenario",
   "main": "index.js",
   "scripts": {
     "cy:open": "node_modules\\.bin\\cypress open",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rebelo/Cypress_tests.git"
+    "url": "git+https://github.com/Rebelo/Fleury_Cypress.git"
   },
   "author": "Rebelo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rebelo/Cypress_tests/issues"
+    "url": "https://github.com/Rebelo/Fleury_Cypress/issues"
   },
-  "homepage": "https://github.com/Rebelo/Cypress_tests#readme",
+  "homepage": "https://github.com/Rebelo/Fleury_Cypress#readme",
   "devDependencies": {
     "cypress": "^7.3.0",
     "cypress-cucumber-preprocessor": "^4.1.0"
